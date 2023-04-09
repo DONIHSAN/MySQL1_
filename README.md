@@ -199,6 +199,4 @@ Disini sebenarnya tidak bermasalah jika PRIMARY KEY nya kita hapus terlebih dahu
 
 ### Sekian Tugas Praktikum Saya di Pertemuan kali ini. Jika Masih Ada Yang Salah Saya Mohon Maaf.
 
-## Wassalamualaikum wr.wb.
-
-<img src=https://png.pngtree.com/png-vector/20190409/ourlarge/pngtree-bye-sticker-and-bubble-speech-comic-png-image_921534.jpg width="120px" >
+### Wassalamualaikum wr.wb. <img src=https://png.pngtree.com/png-vector/20190409/ourlarge/pngtree-bye-sticker-and-bubble-speech-comic-png-image_921534.jpg width="110px" >
