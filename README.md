@@ -197,6 +197,7 @@ Disini sebenarnya tidak bermasalah jika PRIMARY KEY nya kita hapus terlebih dahu
 
 - Yaitu Untuk Menjelaskan Bahwa Pada Record yg `NO` Harus diisi , Sedangkan `YES` Boleh Tidak diisi.
 
+
 ### Sekian Tugas Praktikum Saya di Pertemuan kali ini. Jika Masih Ada Yang Salah Saya Mohon Maaf.
 
-### Wassalamualaikum wr.wb. <img src=https://png.pngtree.com/png-vector/20190409/ourlarge/pngtree-bye-sticker-and-bubble-speech-comic-png-image_921534.jpg width="110px" >
+### Wassalamualaikum wr.wb. 
