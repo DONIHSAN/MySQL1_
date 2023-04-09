@@ -3,7 +3,9 @@
 |----|---|-----|------|
 |Muhammad Ikhsan Fakhrudin|312210019|TI.22.A2|Basis Data|
 
-**1. Buat sebuah database dengan nama latihan 2**
+# Soal Latihan Praktikum
+
+**1. Buat sebuah database dengan nama latihan2**
 
 Untuk membuat database gunakan perintah sebagai berikut :
 
@@ -109,3 +111,88 @@ Perintah nya sama seperti diatas, hanya saja diganti menjadi `UNIQUE KEY`
 
 ![gambar13](screenshot/ss13.png)
 
+# Evaluasi Dan Pertanyaan
+
+**Tulis semua perintah-perintah SQL percobaan di pdf praktikum 1 beserta outputnya!**
+
+SQL DDL
+
+**Membuat Database**
+
+`CREATE DATABASE latihan1;`
+
+![gambar14](screenshot/ss14.png)
+
+**Membuat Tabel**
+
+`CREATE TABLE siswa (nama VARCHAR (100), alamat TEXT);`
+
+![gambar15](screenshot/ss15.png)
+
+**Menambah Kolom**
+
+`ALTER TABLE biodata ADD COLUMN ketengan TEXT AFTER alamat;`
+
+Di perintah yang bapak kasih ada kesalahan yaitu di nama tabelnya. seharusnya siswa bukan biodata.
+
+![gambar16](screenshot/ss16.png)
+
+**Menambah kolom diawal**
+
+`ALTER TABLE siswa ADD COLUMN id INT FIRST;`
+
+![gambar17](screenshot/ss17.png)
+
+**Mengubah nama kolom**
+
+`ALTER TABLE siswa CHANGE COLUMN keterangan TO kelas;`
+
+Diperintah ini ada kesalahan, seharusnya yang benar yaitu ini ALTER TABLE siswa CHANGE keterangan kelas TEXT;
+
+![gambar18](screenshot/ss18.png)
+
+**Mengubah tipe data**
+
+`ALTER TABLE siswa MODIFY COLUMN kelas VARCHAN(10);`
+
+![gambar19](screenshot/ss19.png)
+
+**Menghapus kolom**
+
+`ALTER TABLE siswa DROP COLUMN kelas;`
+
+![gambar20](screenshot/ss20.png)
+
+**Menambah PRIMARY KEY**
+
+`ALTER TABLE siswa ADD PRIMARY KEY(id);`
+
+![gambar21](screenshot/ss21.png)
+
+**Menambah CONSTRAINT**
+
+`ALTER TABLE siswa ADD CONSTRAINT pk_sisiwa PRIMARY KEY(id);`
+
+Disini sebenarnya tidak bermasalah jika PRIMARY KEY nya kita hapus terlebih dahulu. Jadinya saya coba ganti `PRIMARY KEY` dengan `UNIQUE KEY.`
+
+![gambar22](screenshot/ss22.png)
+
+**Menghapus PRIMARY KEY**
+
+`ALTER TABLE siswa DROP PRIMARY KEY;`
+
+![gambar23](screenshot/ss23.png)
+
+**Menghapus CONSTRAINT**
+
+`ALTER TABLE siswa DROP CONSTRAINT pk_siswa;`
+
+![gambar23](screenshot/ss23.png)
+
+## Apa Maksud Dari INT(11) ?
+
+- INT(11) Adalah Nama Tipe Datanya Yaitu `Integer` dan Memiliki Panjang 11 Karakter.
+
+## Ketika Kita Melihat Struktur Tabel Dengan Perintah DESC , Ada Kolom Null yang Berisi Yes dan No. Apa Maksudnya ?
+
+- Yaitu Untuk Menjelaskan Bahwa Pada Record yg `NO` Harus diisi , Sedangkan `YES` Boleh Tidak diisi.
