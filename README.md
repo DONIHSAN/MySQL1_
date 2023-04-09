@@ -105,7 +105,7 @@ tipe index :
 
 ![gambar12](screenshot/ss12.png)
 
-## 13. Jadikan kolom email sebagai UNIQUE KEY!
+**13. Jadikan kolom email sebagai UNIQUE KEY!**
 
 Perintah nya sama seperti diatas, hanya saja diganti menjadi `UNIQUE KEY`
 
@@ -196,3 +196,9 @@ Disini sebenarnya tidak bermasalah jika PRIMARY KEY nya kita hapus terlebih dahu
 ## Ketika Kita Melihat Struktur Tabel Dengan Perintah DESC , Ada Kolom Null yang Berisi Yes dan No. Apa Maksudnya ?
 
 - Yaitu Untuk Menjelaskan Bahwa Pada Record yg `NO` Harus diisi , Sedangkan `YES` Boleh Tidak diisi.
+
+### Sekian Tugas Praktikum Saya di Pertemuan kali ini. Jika Masih Ada Yang Salah Saya Mohon Maaf.
+
+## Wassalamualaikum wr.wb.
+
+<img src=https://png.pngtree.com/png-vector/20190409/ourlarge/pngtree-bye-sticker-and-bubble-speech-comic-png-image_921534.jpg width="120px" >
