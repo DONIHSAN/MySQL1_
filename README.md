@@ -153,7 +153,7 @@ Diperintah ini ada kesalahan, seharusnya yang benar yaitu ini ALTER TABLE siswa 
 
 **Mengubah tipe data**
 
-`ALTER TABLE siswa MODIFY COLUMN kelas VARCHAN(10);`
+`ALTER TABLE siswa MODIFY COLUMN kelas VARCHAR(10);`
 
 ![gambar19](screenshot/ss19.png)
 
@@ -198,6 +198,8 @@ Disini sebenarnya tidak bermasalah jika PRIMARY KEY nya kita hapus terlebih dahu
 - Yaitu Untuk Menjelaskan Bahwa Pada Record yg `NO` Harus diisi , Sedangkan `YES` Boleh Tidak diisi.
 
 
-### Sekian Tugas Praktikum Saya di Pertemuan kali ini. Jika Masih Ada Yang Salah Saya Mohon Maaf.
+### Sekian Tugas Praktikum Saya di Pertemuan kali ini. 
+
+### Jika Masih Ada Yang Salah Saya Mohon Maaf.
 
 ### Wassalamualaikum wr.wb. 
